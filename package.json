@@ -3,28 +3,21 @@
   "version": "1.1.5",
   "description": "Loader untuk menggabungkan semua plugin di dalam folder './plugins'",
   "type": "module",
-  "main": "index.cjs",
-  "module": "index.mjs",
+  "main": "index.js",
   "exports": {
-    "require": "./index.cjs",
-    "import": "./index.mjs"
+    "import": "./index.js"
   },
   "scripts": {
-    "start": "node index.cjs"
+    "start": "node index.js"
   },
   "dependencies": {
-    "crypto": "^1.0.1",
     "esprima": "^4.0.1",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7",
     "chalk": "^4.1.2",
-    "os": "^0.1.2",
     "moment-timezone": "^0.5.43",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
     "jimp": "^0.22.10",
     "sharp": "^0.32.6",
-    "util": "^0.12.4",
     "javascript-obfuscator": "^4.1.1",
     "file-type": "^16.5.4"
   },
